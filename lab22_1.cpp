@@ -67,8 +67,8 @@ void List::remove(int idx){
 	size--;
 	if (idx==0)
 	{
-		Node *current=root->next;
-		root=current->next
+		Node *current=root;
+		root=current->next;
 		delete current;
 	}else{
 		Node *current=root;
